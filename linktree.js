@@ -1,4 +1,8 @@
 
   window.onload = function() {
-    document.getElementById('download-link').click();
-  }
+  document.getElementById('myImage').addEventListener('click', function() {
+    window.location.href = this.parentElement.href;
+    this.parentElement.download = '';
+    this.parentElement.click();
+  });
+};
