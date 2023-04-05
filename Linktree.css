@@ -183,7 +183,17 @@ card        perspective: 800px;
 	    margin-left: 0px;
 	    margin-right: 0px;
 	    }
+       
+     .card-front h2{
+	    color: #24bcf2;
+	    font-size: px;
+	    text-shadow: 2px 2px 2px #000000;
+	    margin-left: 0px;
+	    margin-right: 0px;
+	    }
 	    
+
+
 	    .card:hover .card-front {
 	    transform: rotateY(180deg);
 	    }
