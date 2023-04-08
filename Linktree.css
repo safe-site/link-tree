@@ -276,6 +276,20 @@ margin-right: 0px;
 text-align: center;
 }
 
+
+.my-link {
+  color: red;
+  text-decoration: none;
+}
+
+.my-link:hover,
+.my-link:focus,
+.my-link:active,
+.my-link:visited {
+  text-decoration: none;
+}
+
+
 .floating-button {
   position: fixed;
   bottom: 50%;
