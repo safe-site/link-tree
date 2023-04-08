@@ -24,9 +24,10 @@ z-index: 0;
 }
 
 .box {
-background-color: #fff;
+background-color: none;
 box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
-border-radius: 10px;
+border-radius: 50px;
+border: 1px solid white;
 margin: 2%;
 padding: 0px;
 text-align: center;
@@ -43,33 +44,45 @@ transition: transform 0.5s;
 
 
 .box a {
-color: #333;
+color: white;
 text-decoration: none;
 font-size: 20px;
 font-weight: bold;
 display: flex;
 align-items: center;
-justify-content: center;
+justify-content: flex-start;
 }
 
 .box a:hover {
-color: #0077b6;
+color: black;
+}
+
+.box a:focus {
+  outline: none;
+  }
+
+.icon-container {
+align-self: flex-start;
+}
+
+.fab {
+  font-size: 40px;
+  padding: 10px;
+  color: yellow;
+  }
+
+.text-center {
+flex-grow: 1;
+display: flex;
+justify-content: center;
+margin-right: 45px;
 }
 
 
 
 
 
-.box img {
-height: 40px;
-border-radius: 25%;
-font-size: 50px;
-margin: 0px 0px 0px 5px;
-color: #1DA1F2;
-display: inline-block;
-text-align: center;
-padding: 5px
-}
+
 
 
 
