@@ -1,6 +1,10 @@
 
 body {
 background-size: 400% 400%;
+background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRR0YP5xuMEw-1mAwfe0l3ARPZx4PmH2ydaRg&usqp=CAU');
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
 font-family: Arial, sans-serif;
 background-color: #3f4040;
 margin: 0;
