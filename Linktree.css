@@ -98,7 +98,7 @@ display: flex;
 justify-content: center;
 align-items: center;
 height: 80px;
-background: linear-gradient(45deg, #23a6d5, #2f25e8, #e8a425, #8d2be3, #e6af0b);
+background: linear-gradient(45deg, red, blue, black, red);
 background-size: 400% 400%;
 animation: gradient-animation 20s ease infinite, wave-animation 5s ease-in-out infinite;
 margin-bottom: 20px;
