@@ -363,3 +363,19 @@ justify-content: flex-start;
   padding: 5px;
   margin-left: 5px;
 }
+
+@keyframes pulse1 {
+  from {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.02);
+  }
+  to {
+    transform: scale(1);
+  }
+}
+
+.wox {
+  animation: pulse1 1s ease-in-out infinite;
+}
