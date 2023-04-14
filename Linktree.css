@@ -28,7 +28,7 @@ z-index: 0;
 }
 
 .box {
-background-color: none;
+background: linear-gradient(45deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 438, 0.2));
 box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
 border-radius: 50px;
 border: 1px solid white;
@@ -44,7 +44,7 @@ transition: transform 0.5s;
 
 .box:hover {
   transform: scale(1.05);
-  background-color: white;
+  background: white;
   border: 1px solid blue;
 }
 
