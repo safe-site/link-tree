@@ -116,7 +116,7 @@ height: px;
 background: linear-gradient(45deg, red, black, blue, black);
 background-size: 400% 400%;
 animation: gradient-animation 20s ease infinite, wave-animation 5s ease-in-out infinite;
-border-bottom: 1px solid white;
+border-bottom: 1px dark blue;
 margin-bottom: 0px;
 margin-top: 0px;
 box-shadow: 0px 5px 10px 0px black;
