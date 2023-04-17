@@ -97,6 +97,14 @@ top: -100px;
   transition: top 0.3s ease-in-out;
   }
 
+#myHeader {
+top: -100px;
+}
+
+#myHeader.show {
+  top: 0;
+  transition: top 0.3s ease-in-out;
+  }
 
 
 
