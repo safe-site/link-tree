@@ -112,7 +112,7 @@ header {
 display: flex;
 justify-content: center;
 align-items: center;
-height: 80px;
+height: px;
 background: linear-gradient(45deg, red, black, blue, black);
 background-size: 400% 400%;
 animation: gradient-animation 20s ease infinite, wave-animation 5s ease-in-out infinite;
@@ -420,7 +420,7 @@ justify-content: flex-start;
   height: 70px;
   border-radius: 50%;
   padding: px;
-border: 1px solid white;
+  border: 1px solid white;
 }
 
 .pro {
