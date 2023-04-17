@@ -1,3 +1,4 @@
+<script>
 window.addEventListener("scroll", function() {
   var header = document.getElementById("myHeader");
   if (window.pageYOffset > 20) {
@@ -6,3 +7,4 @@ window.addEventListener("scroll", function() {
     header.classList.remove("show");
   }
 });
+</script>
