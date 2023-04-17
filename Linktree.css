@@ -415,3 +415,24 @@ justify-content: flex-start;
 .wox {
   animation: pulse1 1s ease-in-out infinite;
 }
+
+.pimg {
+  height: 70px;
+  border-radius: 50%;
+  padding: px;
+}
+
+.pro {
+  display: flex;
+  justify-content: center;
+}
+
+.name {
+  color: white;
+  font-size: 12px;
+  font-weight: bold;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
