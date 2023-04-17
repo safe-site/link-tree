@@ -418,7 +418,7 @@ justify-content: flex-start;
 
 .pimg {
   height: 70px;
-  border-radius: 50%;
+  border-radius: 20%;
   padding: px;
   border: 1px solid white;
 }
