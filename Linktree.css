@@ -441,3 +441,14 @@ justify-content: flex-start;
   justify-content: center;
   align-items: center;
 }
+
+h1::after {
+  content: "";
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background-image: url("https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhyKD_n2DHk2mV0kRiT-jIY79lQ6jbLV1r9g1hEnct6SoyWU9-27fZ0L4DD2zMfnya56QzW97ah2YBQEUw-UGFVNp9D1GB213hRcfihMLVeGBklMM0XhLEMQequfK-jqlaAA5XLYKAX5Q-I1ymw1TfuzPcvujMm0X0ROQV6Q8WWiFCJNE74Tn4uHOwH/s320/clipart4801090.png");
+  background-size: cover;
+  margin-left: 0px;
+  vertical-align: middle;
+}
