@@ -229,6 +229,9 @@ margin-right: 0px;
 	    margin-left: 0px;
 	    margin-right: 0px;
      text-align: center;
+font-family: 'Front Space Mono', monospace;
+font-style: italic;
+
 	    }
 	    
 	    .card-back h2{
@@ -305,16 +308,14 @@ z-index: 1;
 
 
 
-footer p {
-  color: white;
-  font-size: 18px;
-  text-shadow: 2px 2px 2px #000000;
-  margin-left: 0px;
-  margin-right: 0px;
-  text-align: center;
-  font-family: 'Front Space Mono', monospace;
-  font-style: italic;
-}
+footer p { 
+ color: white; 
+ font-size: 18px; 
+ text-shadow: 2px 2px 2px #000000; 
+ margin-left: 0px; 
+ margin-right: 0px; 
+ text-align: center; 
+ }
 
 
 
