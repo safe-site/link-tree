@@ -426,13 +426,12 @@ justify-content: flex-start;
   height: 70px;
   border-radius: 50%;
   padding: px;
-  border: 1px solid white;
+  border: 1px solid white
 }
 
 .pro {
   display: flex;
   justify-content: center;
-  border: 1px solid red;
 }
 
 .name {
