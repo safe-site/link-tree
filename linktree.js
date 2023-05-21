@@ -29,7 +29,7 @@ function openPopup() {
 function closePopup() {
   document.getElementById("overlay").style.display = "none";
   document.getElementById("popupContainer").style.display = "none";
-  document.getElementById("iframePopup").src = ""; // Clear the iframe source.
+  document.getElementById("iframePopup").src = ""; // Clear the iframe source
 }
 
 document.addEventListener("keydown", function(event) {
@@ -37,5 +37,3 @@ document.addEventListener("keydown", function(event) {
     closePopup();
   }
 });
-
-
