@@ -511,12 +511,12 @@ h1::after {
   
 #closeButton {
   position: absolute;
-  top: 10%;
-  left: 10%;
-  transform: translate(-50%, -50%);
-  font-size: 25px;
-  color: green;
+  top: 10px;
+  left: 10px;
+  font-size: 24px;
+  background: none;
+  border: none;
+  color: red;
   cursor: pointer;
-  z-index: 10001; /* Set a higher z-index value */
-  margin: 0px;;
-}
+  float: left;
+  }
