@@ -484,7 +484,7 @@ h1::after {
 }
 
 
-#closeButton {
+#closeButton4 {
   position: absolute;
   top: 10%;
   left: 50%;
@@ -509,3 +509,14 @@ h1::after {
   float: right;
   }
   
+#closeButton {
+  position: absolute;
+  top: 10%;
+  left: 10%;
+  transform: translate(-50%, -50%);
+  font-size: 25px;
+  color: green;
+  cursor: pointer;
+  z-index: 10001; /* Set a higher z-index value */
+  margin: 0px;;
+}
