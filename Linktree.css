@@ -499,8 +499,8 @@ h1::after {
   
 #closeButton {
   position: absolute;
-  top: 10%;
-  left: 10%;
+  top: 10px;
+  left: 10px;
   font-size: 24px;
   background: none;
   border: none;
